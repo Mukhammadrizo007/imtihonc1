@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+body {
+  background-color: #f2efef;
+}
+
+.h1 {
+  font-family: "Itim", cursive;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  width: 25%;
+  background-color: #fcf2e5;
+  padding: 20px;
+}
+
+.image {
+  width: 100%;
+}
+
+.img1 {
+  width: 80px;
+  margin-top: 10px;
+  margin-bottom: -20px;
+}
+
+.c11 {
+  text-align: center;
+  padding: 10px 0;
+}
+.pp {
+  margin-top: 10px;
+  font-size: 15px;
+  color: black;
+  opacity: 50%;
+}
+
+.card-parent {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.card.white {
+  background-color: white;
+}
+
+.h11 {
+  font-family: "Itim", cursive;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.s-card {
+  box-shadow: 0px 4px 4px 0px #00000040;
+  background-color: white;
+  width: 20%;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.imgg {
+  width: 100%;
+}
+
+.h22 {
+  color: #009af0;
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.p0 {
+  padding: 7px 0;
+  font-size: 14px;
+}
+
+.btnc1 {
+  background-color: #009af0;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 10px 11px;
+  cursor: pointer;
+}
+
+.btnc1:active {
+  transform: scale(0.9);
+}
+
+.s-parent {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.s1 {
+  padding: 30px;
+}
+
+.alert {
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.alert.success {
+  background-color: rgb(9, 210, 9);
+}
+
+.alert.warning {
+  background-color: yellow;
+}
+
+.alert.error {
+  background-color: red;
+}
+
+.alert.s4 {
+  background-color: #009af0;
+}
+
+.alert.s5 {
+  background-color: peru;
+}
+
+#p {
+  margin-top: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.buttonc1 {
+  padding: 5px;
+  background-color: white;
+  border-radius: 8px;
+  color: black;
+  font-size: 14px;
+}
+
+.buttonc2 {
+  padding: 5px;
+  background-color: black;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-size: 14px;
+}
+
+.buttonc1:active {
+  transform: scale(0.9);
+}
+
+.buttonc2:active {
+  transform: scale(0.9);
+}
